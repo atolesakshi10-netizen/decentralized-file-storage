@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "type": "module",
   "main": "server.js",
-"scripts": {
-  "dev": "vite",
-  "start": "node server.js",
-  "build": "vite build",
-  "preview": "vite preview"
-},
+
+  "scripts": {
+    "dev": "vite",
+    "start": "node server.js",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+
   "dependencies": {
     "axios": "^1.13.2",
     "bcryptjs": "^3.0.3",
@@ -18,9 +20,19 @@
     "form-data": "^4.0.4",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^9.0.0",
-    "multer": "^2.0.2"
+    "multer": "^2.0.2",
+
+    "react": "latest",
+    "react-dom": "latest",
+    "react-router-dom": "latest",
+    "lucide-react": "latest",
+    "react-hot-toast": "latest",
+    "framer-motion": "latest",
+    "vite": "latest"
   },
+
   "devDependencies": {
-    "nodemon": "^3.1.11"
+    "nodemon": "^3.1.11",
+    "@vitejs/plugin-react": "latest"
   }
 }
